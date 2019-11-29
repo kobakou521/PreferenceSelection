@@ -7,12 +7,12 @@ var test;
 {
   startbtn.addEventListener('click', () => {
     const results = [
-      'img/picA.jpg',
-      'img/picB.jpg',
-      'img/picC.jpg',
-      'img/picD.jpg',
-      'img/picE.jpg',
-      'img/picF.jpg',
+      'picA.jpg',
+      'picB.jpg',
+      'picC.jpg',
+      'picD.jpg',
+      'picE.jpg',
+      'picF.jpg',
     ];
     test = results[Math.floor(Math.random() * results.length)];
     mainImage.src = test;
